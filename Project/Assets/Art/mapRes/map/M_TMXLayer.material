@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ReadMe" ?>
+<Material>
+	<Shader Type="VS" FileName=".VS" >
+	</Shader>
+	<Shader Type="FS" FileName="Shader/PositionTextureColor.tpl" >
+	</Shader>
+	<Textures>
+		
+	</Textures>
+	<Uniforms>
+		
+	</Uniforms>
+	<RenderStates>
+		<RenderState Blend="True" />
+		<RenderState BlendEquation="Add" />
+		<RenderState BlendFunc="SrcAlpha OneMinusSrcAlpha" />
+	</RenderStates>
+</Material>

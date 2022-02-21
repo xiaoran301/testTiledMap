@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ReadMe" ?>
+<Material>
+	<Shader Type="VS" FileName=".VS" >
+	</Shader>
+	<Shader Type="FS" FileName="Shader/LeagueEffect.tpl" >
+	</Shader>
+	<Textures>
+	</Textures>
+	<Uniforms>
+		<Uniform Type="Integer" BackgroundColor="25 25 25" />
+		<Uniform Type="Integer" Color="119 239 242" />
+		<Uniform Type="Float" TimePeriod="5.0" />
+		<Uniform Type="Float" FadeoutOnTimeline="1.0" />
+		<Uniform Type="Float" InnerRingFadeOut="0.001" />
+		<Uniform Type="Float" OuterRingFadeOut="0.0005" />
+		<Uniform Type="Float" Acceleration="-360.0" />
+		<Uniform Type="Float" InnerOrigExpandSpeed="1800.0" />
+		<Uniform Type="Float" InnerOrigRadius="-3400.0" />
+		<Uniform Type="Float" OuterOrigExpandSpeed="1800.0" />
+		<Uniform Type="Float" OuterOrigRadius="0.0" />
+		<Uniform Type="Float" NoiseFrequency="0.002" />
+		<Uniform Type="Float" NoiseExpandSpeed="0.06" />
+		<Uniform Type="Float" NoiseContrast="0.85" />
+	</Uniforms>
+	<RenderStates>
+		<RenderState Blend="True" />
+		<RenderState BlendEquation="Add" />
+		<RenderState BlendFunc="One One" />
+	</RenderStates>
+</Material>

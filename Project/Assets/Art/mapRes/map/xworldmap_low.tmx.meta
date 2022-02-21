@@ -1,0 +1,34 @@
+fileFormatVersion: 2
+guid: 7a3cd488153c5e14a879414f65a74e67
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1fa25d03934ea624a82bf2fcee6f0873, type: 3}
+  missingFiles: []
+  errors: []
+  warnings:
+  - Tileset 'world_low_stop' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Sea_Background' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'world_low_transition01' is an embedded tileset. Exported tilesets are
+    preferred.
+  - Tileset 'world_low_gadget' is an embedded tileset. Exported tilesets are preferred.
+  missingSortingLayers: []
+  missingLayers: []
+  missingTags: []
+  importerVersion: 24
+  pixelsPerUnit: 100
+  edgesPerEllipse: 32
+  numberOfObjectsImported: 780
+  tilesAsObjects: 0
+  sortingMode: 0
+  isIsometric: 0
+  customImporterClassName: 
+  internalTilesets:
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
